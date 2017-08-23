@@ -42,7 +42,7 @@ public class DeepLearningMojoWriter extends ModelMojoWriter<DeepLearningModel,
     writekv("norm_resp_sub", _output.normrespsub);
     writekv("use_all_factor_levels", _parms._use_all_factor_levels);
 
-  //  writeblob("model_params", _model_info.);
+//    writeblob("model_params", _model_info);
 
   }
 

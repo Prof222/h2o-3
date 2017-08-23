@@ -16,6 +16,7 @@ public class DeeplearningMojoReader extends ModelMojoReader<DeeplearningMojoMode
     int i = 0;
 
   }
+
   @Override
   protected DeeplearningMojoModel makeModel(String[] columns, String[][] domains) {
     return new DeeplearningMojoModel(columns, domains);

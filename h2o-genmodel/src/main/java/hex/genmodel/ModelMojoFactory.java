@@ -71,7 +71,9 @@ public class ModelMojoFactory {
 
       case "K-means":
         return new KMeansMojoReader();
+
       case "Deep Learning":
+      case "deep learning":
         return new DeeplearningMojoReader();
 
       case "Support Vector Machine (*Spark*)":
